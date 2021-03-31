@@ -1,0 +1,60 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-image: url("bg.jfif");
+  font-size: 30px;
+}
+button {
+  font-family: cursive;
+  background-color: #45337f;
+  color: black;
+  margin: 5px;
+  font-size: 100%;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: #43348f;
+}
+.box1 {
+  height: 200%;
+  font-size: 60px;
+  width: 30%;
+  margin-top: 5vh;
+  margin-left: 35vw;
+  background-color: blue;
+}
+.text1 {
+  font-size: 49%;
+}
+div {
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+  font-weight: bold;
+}
+.input1 {
+  margin-top: 20vh;
+}
+.guessBox {
+  height: 190%;
+}
+.check {
+  margin-top: 5px;
+  margin-left: 45vw;
+
+  font-size: 30px;
+}
+.box2 {
+  margin-top: 20px;
+  background-color: black;
+  margin-left: 33vw;
+}
+.labelscore {
+  margin-top: 3px;
+  margin-left: 30vw;
+  font-size: 24px;
+}
+.labelhscore {
+  margin-top: 3px;
+  margin-left: 20vw;
+  font-size: 24px;
+}
