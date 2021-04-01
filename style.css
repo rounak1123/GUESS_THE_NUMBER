@@ -25,6 +25,34 @@ button:hover {
 .text1 {
   font-size: 49%;
 }
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-image: url("bg.jfif");
+  font-size: 30px;
+}
+button {
+  font-family: cursive;
+  background-image: linear-gradient(to bottom right, blue, black);
+
+  color: black;
+  margin: 5px;
+  font-size: 100%;
+  border-radius: 5px;
+}
+button:hover {
+  background-image: linear-gradient(to bottom right, blue, rgb(235, 235, 236));
+}
+.box1 {
+  height: 200%;
+  font-size: 60px;
+  width: 30%;
+  margin-top: 5vh;
+  margin-left: 35vw;
+  background-image: linear-gradient(to bottom right, blue, black);
+}
+.text1 {
+  font-size: 49%;
+}
 div {
   background-color: black;
   color: aliceblue;
@@ -32,10 +60,17 @@ div {
   font-weight: bold;
 }
 .input1 {
-  margin-top: 20vh;
+  height: 5rem;
+  margin-top: 13vh;
 }
 .guessBox {
-  height: 190%;
+  padding: 0%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 25px;
+  margin-top: 0.8em;
+  height: 2em;
+  width: 8rem;
+  font-weight: 1000;
 }
 .check {
   margin-top: 5px;
@@ -45,8 +80,9 @@ div {
 }
 .box2 {
   margin-top: 20px;
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   margin-left: 33vw;
+  padding-right: 5%;
 }
 .labelscore {
   margin-top: 3px;
@@ -55,6 +91,10 @@ div {
 }
 .labelhscore {
   margin-top: 3px;
-  margin-left: 20vw;
+  margin-left: 30vw;
   font-size: 24px;
 }
+.message {
+  text-align: center;
+}
+
