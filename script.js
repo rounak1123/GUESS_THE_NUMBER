@@ -17,6 +17,14 @@ document.querySelector(".check").addEventListener("click", function () {
     document.querySelector(".message").textContent =
       "YO! you FUCKED IT!!! 🎉🎉🎉 ";
     document.querySelector(".box1").textContent = requiredValue + "🎉😁😁";
+    if (scr > hscr) {
+      hscr = scr;
+
+      document.querySelector(".hscore").textContent = hscr;
+    }
+
+    document.querySelector(".box1").style.backgroundImage =
+      " linear-gradient(to bottom right,green , rgb(4, 78, 22), white)";
   } else if (val1 > requiredValue) {
     document.querySelector(".message").textContent =
       "The Entered Value is much high. 😢😢😭";
@@ -37,6 +45,7 @@ document.querySelector(".again").addEventListener("click", function () {
   }
   scr = 100;
   requiredValue = Math.floor(Math.random() * 10) + 1;
+  document.querySelector(".box1").style.background = "blue";
   document.querySelector(".score").textContent = 100;
   document.querySelector(".box1").textContent = "??";
   document.querySelector(".message").textContent = "Start GUESSING😜😜";
